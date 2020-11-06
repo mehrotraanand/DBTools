@@ -1,0 +1,5 @@
+CREATE OR REPLACE PACKAGE ASP_PAGE_GEN_PKG                                                                                                                                                                                                   
+IS                                                                                                                                                                                                                                                       
+PROCEDURE create_ASP_maint_page_prc(v_table_name IN VARCHAR2);                                                                                                                                                                                           
+PROCEDURE create_ASP_list_page_prc(v_table_name IN VARCHAR2);                                                                                                                                                                                           
+END ASP_PAGE_GEN_PKG;
